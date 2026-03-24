@@ -153,7 +153,7 @@ const isDev = process.env.NODE_ENV !== 'production';
 const plugins = [tailwindcss(), isDev && vitePluginManusRuntime(), isDev && vitePluginManusDebugCollector()].filter(Boolean) as Plugin[];
 
 export default defineConfig({
-  base: "/flowb/",
+  base: "/FlowB/",
   plugins,
   resolve: {
     alias: {
